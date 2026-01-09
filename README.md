@@ -43,7 +43,7 @@ docker pull lovesainju/my-vue-app:v1
 ```
 ### 2. Run the Container
 ```bash
-docker run -d -p 8080:80 --name my-vue-app lovesainju/my-vue-app:v1.1
+docker run -d -p 8080:80 --name my-vue-app lovesainju/my-vue-app:v1
 ```
 ### 3. Access the Application
 ```bash
