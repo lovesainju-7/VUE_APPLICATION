@@ -33,17 +33,15 @@ http://localhost:8080
 ```
 
 ###  Method 2: Run Using Docker Hub Image
-This method does not require cloning the repository.
-
-## For Apple Silicon
+This method does not require cloning the repository for both (amd64 and arm64)
 
 ### 1. Pull the Image from Docker Hub
 ```bash
-docker pull lovesainju/my-vue-app:v1
+docker pull lovesainju/my-vue-app2:v1
 ```
 ### 2. Run the Container
 ```bash
-docker run -d -p 8080:80 --name my-vue-app lovesainju/my-vue-app:v1
+docker run -d -p 8080:80 --name my-vue-app lovesainju/my-vue-app2:v1
 ```
 ### 3. Access the Application
 ```bash
