@@ -37,11 +37,11 @@ This method does not require cloning the repository.
 
 ### 1. Pull the Image from Docker Hub
 ```bash
-docker pull lovesainju/my-vue-app:latest
+docker pull lovesainju/my-vue-app:v1.1
 ```
 ### 2. Run the Container
 ```bash
-docker run -p 8080:80 lovesainju/my-vue-app:latest
+docker run -d -p 8080:80 --name my-vue-app lovesainju/my-vue-app:v1.1
 ```
 ### 3. Access the Application
 ```bash
