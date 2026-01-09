@@ -35,6 +35,8 @@ http://localhost:8080
 ###  Method 2: Run Using Docker Hub Image
 This method does not require cloning the repository.
 
+## For Apple Silicon
+
 ### 1. Pull the Image from Docker Hub
 ```bash
 docker pull lovesainju/my-vue-app:v1.1
