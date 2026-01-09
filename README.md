@@ -39,7 +39,7 @@ This method does not require cloning the repository.
 
 ### 1. Pull the Image from Docker Hub
 ```bash
-docker pull lovesainju/my-vue-app:v1.1
+docker pull lovesainju/my-vue-app:v1
 ```
 ### 2. Run the Container
 ```bash
